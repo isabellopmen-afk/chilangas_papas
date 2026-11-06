@@ -1,0 +1,72 @@
+body {
+    color: rgb(53, 53, 53);
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    }
+
+
+.img-logo {
+    height: 45px;
+
+}
+
+.barra-menu {
+    background-color: #fef9d7 !important;
+}
+
+.titulos {
+    font-family: "Chela One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.acentos-color {
+    color: #dd9d1c;
+}
+
+.subtitulo {
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.fondo-beige {
+    background-color: #fef9d7;
+}
+
+.texto-menu {
+    color: #dd9d1c;
+}
+
+.btn-menu {
+    background-color: #68a1d7;
+    color: white;
+}
+
+.pasele {
+    font-size: 30px;
+    color: #dd9d1c;
+    text-align: justify;
+}
+
+.iconos {
+    font-size: 30px;
+}
+
+.bg-card {
+    background-color: #fef9d7;
+   
+}
+
+.bg-image {
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    
+}
+
