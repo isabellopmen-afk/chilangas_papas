@@ -4,7 +4,7 @@ body {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    }
+}
 
 
 .img-logo {
@@ -13,14 +13,14 @@ body {
 }
 
 .barra-menu {
-    background-color: #fef9d7 !important;
+    background-color: #fefbe4 !important;
 }
 
 .titulos {
     font-family: "Chela One", system-ui;
     font-weight: 400;
     font-style: normal;
-    
+
 }
 
 .acentos-color {
@@ -30,11 +30,12 @@ body {
 .subtitulo {
     font-size: 20px;
     text-align: justify;
-    
+
 }
 
 .fondo-beige {
-    background-color: #fef9d7;
+    background-color: #fefbe4;
+
 }
 
 .texto-menu {
@@ -57,8 +58,8 @@ body {
 }
 
 .bg-card {
-    background-color: #fef9d7;
-   
+    background-color: #fefbe4;
+
 }
 
 .bg-image {
@@ -67,6 +68,82 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     width: 100% !important;
-    
+
 }
 
+footer {
+    background-color: #dd9d1c;
+    color: white;
+
+}
+
+.btn-footer {
+    color: white;
+    font-size: 25px;
+}
+
+.menu-footer {
+    color: white;
+    text-decoration: none;
+}
+
+.img-hover-zoom {
+    --scale: 1;
+    --transition-duration: 250ms;
+    scale: var(--scale);
+    transition:
+        scale var(--transition-duration) ease-in-out;
+}
+
+.img-hover-zoom:hover {
+    --scale: 1.1;
+}
+
+/* ANIMACION */
+
+
+
+.marquee-container {
+    width: 100%;
+    background: #dd9d1c;
+    overflow: hidden;
+}
+
+.marquee {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    white-space: nowrap;
+    animation: marquee 40s linear infinite;
+    animation-direction: reverse;
+}
+
+.marquee p {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.brillo {
+    color: #68a1d7;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.texto-animacion {
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
