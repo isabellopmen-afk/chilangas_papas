@@ -105,7 +105,8 @@ footer {
 
 .marquee-container {
     width: 100%;
-    background: #dd9d1c;
+    background: #DD9D1C;
+background: radial-gradient(circle, rgba(221, 157, 28, 1) 0%, rgba(191, 24, 24, 1) 100%);
     overflow: hidden;
 }
 
@@ -147,3 +148,10 @@ footer {
     margin-right: 20px;
 
 }
+
+.degradado {
+    height: 10px;
+    background: #DD9D1C;
+background: radial-gradient(circle, rgba(221, 157, 28, 1) 0%, rgba(191, 24, 24, 1) 100%);
+}
+
